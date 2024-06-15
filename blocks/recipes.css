@@ -29,9 +29,10 @@
 
 .recipes__videos {
   display: flex;
-  margin: auto;
+  margin: 0;
   justify-content: center;
   gap: 40px;
+  list-style-type: none;
 }
 .recipes__iframe {
   width: 480px;
@@ -45,4 +46,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 0;
 }

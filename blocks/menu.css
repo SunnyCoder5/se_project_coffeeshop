@@ -38,32 +38,32 @@
   list-style-type: none;
 }
 
-.card {
+.menu__card {
   width: 540px;
 }
 
-.card__title {
+.menu__card-title {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 32px;
 }
 
-.card__list {
+.menu__card-list {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   list-style-type: none;
   gap: 16px;
-  font-family: "Noto Serif", "Times New Roman", generic-serif";
+  font-family: "Noto Serif", "Times New Roman", generic-serif;
 }
 
-.card__list-item {
+.menu__card-list-item {
   display: flex;
 }
 
-.card__list-divider {
+.menu__card-list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
 }

@@ -12,6 +12,8 @@
   list-style-type: none;
   padding-right: 80px;
   padding-top: 30px;
+  margin: 0;
+  font-weight: 500;
 }
 
 .nav__link {

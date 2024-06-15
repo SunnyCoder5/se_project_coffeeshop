@@ -20,32 +20,36 @@
   box-sizing: border-box;
   display: flex;
   margin: 0 auto;
+  padding: 0;
 }
 
 .about__title {
   max-width: 251px;
-  margin: 0;
+  margin: 0 auto;
+  margin-left: 0;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   z-index: 1;
-  padding: 100px 80px;
+  padding-top: 100px;
+  padding-left: 80px;
 }
 
 .about__content {
-  font-family: "Noto Serif", "Times New Roman", generic-serif;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
   max-width: 660px;
-  padding: 119px 80px 173px;
-  display: block;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 119px 80px 173px 0;
+  margin: 0;
 }
 
 .about__paragraph {
   margin-top: 0;
   margin-bottom: 20px;
+  font-family: "Noto Serif", "Times New Roman", generic-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 .about__paragraph:last-of-type {
