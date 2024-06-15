@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- in the Header section adding location and map near the paragraph with adress of coffeeshop
+- in the Header section adding a link and logo corresponding to the web-site of Tripleten Library
+- It would be useful to add form for making an order remotely in addition of table boking
