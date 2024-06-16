@@ -30,7 +30,7 @@
 .header__description {
   max-width: 683px;
   padding-left: 80px;
-  font-family: "Noto Serif", "Times New Roman", generic serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -42,10 +42,11 @@
   display: block;
   font-size: 60px;
   line-height: 72px;
-  font-family: "Noto Serif", "Times New Roman", generic serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #2f80ed;
   z-index: 1;
+  font-weight: normal;
 }
 
 .header__image {
