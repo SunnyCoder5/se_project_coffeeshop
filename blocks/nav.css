@@ -7,7 +7,6 @@
 .nav__links {
   display: flex;
   flex-direction: row;
-  align-items: center;
   column-gap: 20px;
   list-style-type: none;
   padding-right: 80px;
