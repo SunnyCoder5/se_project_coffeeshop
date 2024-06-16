@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 385px;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -11,6 +11,10 @@
   margin: 0;
   padding: 0;
   border: none;
+  max-width: 385px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__input {
@@ -32,11 +36,12 @@
   display: block;
   margin-bottom: 8px;
   margin-top: 32px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  max-width: max-content;
 }
 .form__label:first-of-type {
   margin-top: 0;
@@ -74,11 +79,12 @@
   padding-top: 32px;
 }
 
-.form__label_type_checkbox  {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   flex-direction: row;
   padding-bottom: 120px;
+  align-self: center;
 }
 
 input::-webkit-input-placeholder {

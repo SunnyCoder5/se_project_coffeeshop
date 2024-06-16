@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
   position: relative;
+  z-index: -1;
 }
 
 .header__title {
@@ -38,7 +39,6 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
-  z-index: 1;
   font-family: "Noto Serif", "Times New Roman", generic-serif;
   font-style: italic;
   color: #2f80ed;
